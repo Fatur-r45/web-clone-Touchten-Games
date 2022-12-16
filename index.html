@@ -34,7 +34,7 @@
   </head>
   <body>
     <!-- header start -->
-    <section style="background-color: #fa9112">
+    <section style="background-color: #fa9112" id="#">
       <div class="hero container-fluid">
         <div class="container">
           <div class="row">
@@ -78,16 +78,16 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Career</a>
+              <a class="nav-link" href="#careers">Careers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Game</a>
+              <a class="nav-link" href="#games">Game</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="#about-us">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -96,7 +96,7 @@
     <!-- navbar end -->
 
     <!-- content we're hiring start -->
-    <section style="background-color: #00b6d8">
+    <section style="background-color: #00b6d8" id="careers">
       <div class="hiring-section py-5 position-relative">
         <div class="container my-5">
           <h1
@@ -137,7 +137,7 @@
     <!-- content we're hiring end -->
 
     <!-- our games start -->
-    <section style="background-color: #363357">
+    <section style="background-color: #363357" id="games">
       <div class="ourgames-section py-5">
         <div class="container mt-5">
           <div class="text-center my-5">
@@ -315,7 +315,7 @@
     <!-- our games end -->
 
     <!-- about us start -->
-    <section style="background-color: #eff2f8">
+    <section style="background-color: #eff2f8" id="about-us">
       <div class="about-us py-5">
         <div class="bottom-left-bg"></div>
         <div class="container text-white py-5">
@@ -428,7 +428,7 @@
               <a
                 href="https://play.google.com/store/apps/dev?id=4815662748970110421"
                 ><img
-                  class="my-1"
+                  class="my-1 me-4"
                   src="https://www.touchten.com/dist/img/get_google_play.png"
                   width="150px"
                   alt="Touchten Games Google Play"
@@ -447,6 +447,17 @@
       </div>
     </section>
     <!-- footer end -->
+
+    <!-- scrol back to top start -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-circle"
+      id="btn-back-to-top"
+      style="background: linear-gradient(to bottom right, #580473, #e10473)"
+    >
+      <i class="bi bi-arrow-up text-white"></i>
+    </button>
+    <!-- scrol back to top end -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
