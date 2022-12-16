@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.hero {
+  background-image: url(https://www.touchten.com/dist/img/beach.jpg);
+  height: 103vh;
+  background-size: cover;
+  position: relative;
+  border-bottom-left-radius: 100px;
+}
+
+.orang {
+  background-image: url(https://www.touchten.com/dist/img/Portrait-Beach-girl.png);
+  height: 500px;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  bottom: -120px;
+}
+
+.hiring-section {
+  background-color: #fa9112;
+  position: relative;
+  height: 170vh;
+  overflow: hidden;
+  border-bottom-left-radius: 100px;
+}
+.text-subheading {
+  font-size: 28px;
+  line-height: 38px;
+  font-family: "Nunito", sans-serif;
+}
+
+.btn-hiring {
+  padding: 29px 40px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ea1414;
+  background-color: #ffffff;
+  box-shadow: 0px 20px 40px rgb(31 24 72 / 3%);
+  border-radius: 22px;
+  margin: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-out;
+  text-transform: capitalize;
+}
+
+.btn-hiring:hover {
+  background-color: #ea1414;
+  color: #ffffff;
+}
+
+.img-cover {
+  display: block;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  bottom: -120px;
+  right: 0;
+  z-index: 1;
+}
+
+.sub-bg {
+  background-image: url(https://www.touchten.com/dist/img/transparent_bgr.png);
+  background-size: contain;
+  height: 265px;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  background-position-y: bottom;
+}
+/* 
+.card-wrapper {
+  display: flex; 
+} */
+
+.card {
+  position: relative;
+  z-index: -1;
+  bottom: 160px;
+  padding-top: 170px;
+}
+
+.card-body {
+  height: 350px;
+}
+
+.card-image {
+  object-fit: cover;
+  width: calc(100% / 1.3);
+  display: flex;
+  margin: auto;
+  position: relative;
+  z-index: 100;
+}
+
+.button-image {
+  width: 150px;
+}
+
+.ourgames-section {
+  background-color: #00b6d8;
+  position: relative;
+  height: 155vh;
+  overflow: hidden;
+  border-bottom-left-radius: 100px;
+}
+
+.about-text {
+  width: 80%;
+  margin: auto;
+  font-size: 18px;
+}
+
+.about-subtext {
+  width: 51%;
+  margin: auto;
+  font-size: 18px;
+}
+
+.divider {
+  height: 8px;
+  width: 60px;
+  display: block;
+  content: "";
+  clear: both;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.about-us {
+  background-color: #363357;
+  position: relative;
+  overflow: hidden;
+  border-bottom-left-radius: 100px;
+}
+
+.about-us::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: calc(-370px / 2.5);
+  background-image: url(https://www.touchten.com/dist/img/circle_bgr.png);
+  height: 370px;
+  width: 220px;
+  background-position: center;
+  background-size: cover;
+  z-index: 100000;
+}
+.about-us::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url(https://www.touchten.com/dist/img/dot_bgr.png);
+  height: 150px;
+  width: 300px;
+  background-size: cover;
+  z-index: 100000;
+}
+
+.text-heading-footer {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.bottom-left-bg {
+  background-image: url(https://www.touchten.com/dist/img/Portrait-AmericanShortHair-base-shadow.png);
+  background-size: cover;
+  height: 350px;
+  width: 360px;
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+}
+
+.footer-section p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 201.1%;
+  color: #363357;
+  margin-bottom: 1rem;
+}
+
+.icon-footer {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.icon-footer:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 575.98px) {
+  .hero {
+    overflow: hidden;
+  }
+  .btn-hiring {
+    font-size: 16px;
+    padding: 0px 10px;
+  }
+
+  .img-cover {
+    height: 300px;
+    width: 300px;
+  }
+  .bottom-left-bg {
+    height: 200px;
+    width: 250px;
+    bottom: -10px;
+  }
+
+  .card-image {
+    width: 55%;
+  }
+  .card {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+  }
+}
