@@ -207,6 +207,45 @@
   opacity: 0.5;
 }
 
+.contact-us-heading {
+  font-family: "Carter One", cursive;
+  font-size: 88px;
+  line-height: 100px;
+  margin: 0;
+}
+.contact-section {
+  background-color: #ffffff;
+}
+.content-contact-us {
+  background-color: #f1f9fa;
+  height: 100vh;
+}
+
+.button-contact {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-button {
+  background-color: #bbe0e5;
+  padding: 10px 50px;
+  border-radius: 8px;
+  color: #3e7a82;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+}
+.text-contact {
+  font-weight: unset;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgb(56, 189, 207);
+}
+
 @media (max-width: 575.98px) {
   .hero {
     overflow: hidden;
@@ -233,5 +272,14 @@
     width: 80%;
     height: 500px;
     margin: auto;
+  }
+  .contact-us-heading {
+    font-size: 50px;
+  }
+  .content-contact-us {
+    height: 60vh;
+  }
+  .button-contact {
+    bottom: 10px;
   }
 }
